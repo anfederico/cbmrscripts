@@ -1,0 +1,20 @@
+Package: cbmrscripts
+Title: cbmrscripts
+Version: 1.0
+Authors@R: c(person(given="Anthony", family="Federico", email="anfed@bu.edu", 
+             role=c("aut","cre")),
+             person(given="Stefano", family="Monti", email="smonti@bu.edu", 
+             role=c("aut")))
+Description: R repository for common use scripts for transcriptomics analysis.
+Depends: R (>= 3.0.0)
+License: GPL-3 + file LICENSE
+URL: https://github.com/montilab/cbmrscripts
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+LazyData: false
+Imports:
+Suggests: 
+    devtools,
+    testthat
+VignetteBuilder: knitr
+BugReports: https://github.com/montilab/cbmrscripts/issues
